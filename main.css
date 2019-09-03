@@ -1,0 +1,76 @@
+body {
+  background-image: url("/Images/basement.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text {
+font-size:24px;
+text-align:center;
+padding-left: 200px;
+padding-right: 200px
+}
+
+.heading {
+font-size:40px;
+text-align:center
+}
+
+#hmm{
+padding-left: 660px;
+padding-right: 660px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+li {
+    float: left;
+    text-shadow: 3px 2px red; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:red;
+    color:black
+}
+
+.active {
+    background-color:white;
+    color:black;
+    text-shadow:none
+}
+
+header {
+font-size:64px;
+text-align:center;
+color:white;
+background-color: black
+}
+
+table,th,td {
+    border:3px solid white;
+    border-collapse: collapse
+}   
+
+th,td {
+    color:white;
+    background-color:black;
+    text-align:center
+}
+    
+#char {font-size:24px}
+#head {font-size:32px}
